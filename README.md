@@ -24,7 +24,7 @@ Think of it like this:
 |------|-------------|
 | `python_to_sql_data_loader.py` | Reads the CSV file and puts all the data into the PostgreSQL database |
 | `sql_to_python_data_loader.py` | Reads the data from the PostgreSQL database and saves it as a new CSV file |
-| `ffinancial_analyst.ipynb` | Jupyter Notebook — Learn pandas by analyzing the listings data like a financial analyst |
+| `financial_analyst.ipynb` | Jupyter Notebook — Learn pandas by analyzing the listings data like a financial analyst |
 | `data/listings.csv` | The original data file with 6,442 Seattle rental listings |
 | `data/from_sql.csv` | The new CSV file created after pulling data back from the database |
 | `requirements.txt` | A shopping list of Python tools (libraries) this project needs |
@@ -287,7 +287,7 @@ df = pd.read_sql("""
 Finance/
 ├── python_to_sql_data_loader.py   ← Script 1: CSV → Database
 ├── sql_to_python_data_loader.py   ← Script 2: Database → CSV
-├── ffinancial_analyst.ipynb       ← Jupyter Notebook: Pandas tutorial & financial analysis
+├── financial_analyst.ipynb       ← Jupyter Notebook: Pandas tutorial & financial analysis
 ├── requirements.txt               ← List of Python libraries needed
 ├── README.md                      ← This file (you are here!)
 └── data/
